@@ -216,8 +216,8 @@ a:focus {
   .nav-item {
     text-align: center;
     display: grid;
-    width: 100px;
-    margin-bottom: 5px;
+    width: 115px;
+    margin-left: 5px;
   }
 }
 
