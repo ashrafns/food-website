@@ -2,7 +2,7 @@
 
 :root {
   --firstColor: #fbaf32;
-  --scancolor:#719a0a;
+  --scandcolor:#719a0a;
   --thiredColor:#bf2a2e;
 }
 body {
@@ -421,7 +421,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: var(--scancolor);
+  color: var(--scandcolor);
   outline: none;
   text-decoration: none;
 }
@@ -475,7 +475,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-  background: var(--scancolor);
+  background: var(--scandcolor);
 }
 
 [class^="flaticon-"]:before,
@@ -513,7 +513,7 @@ a:focus {
 }
 
 .navbar .navbar-brand span {
-  color: var(--scancolor);
+  color: var(--scandcolor);
 }
 
 .navbar .navbar-brand:hover {
@@ -697,12 +697,12 @@ a:focus {
 
 .carousel .carousel-btn .btn:last-child {
   margin-left: 10px;
-  background: var(--scancolor);
-  border-color: var(--scancolor);
+  background: var(--scandcolor);
+  border-color: var(--scandcolor);
 }
 
 .carousel .carousel-btn .btn:last-child:hover {
-  color: var(--scancolor);
+  color: var(--scandcolor);
   background: transparent;
 }
 
@@ -831,7 +831,7 @@ a:focus {
 }
 
 .section-header p {
-  color: var(--scancolor);
+  color: var(--scandcolor);
   margin-bottom: 5px;
   position: relative;
   font-size: 20px;
@@ -981,7 +981,7 @@ a:focus {
 }
 
 .food .food-item:hover i {
-  color: var(--scancolor);
+  color: var(--scandcolor);
 }
 
 .food .food-item i::after {
@@ -999,7 +999,7 @@ a:focus {
 }
 
 .food .food-item:hover i::after {
-  border: 3px dotted var(--scancolor);
+  border: 3px dotted var(--scandcolor);
   border-right: transparent;
   border-bottom: transparent;
 }
@@ -1028,7 +1028,7 @@ a:focus {
 .food .food-item a:hover::after {
   width: 100%;
   left: 0;
-  background: var(--scancolor);
+  background: var(--scandcolor);
 }
 
 /*******************************/
@@ -1232,11 +1232,11 @@ a:focus {
 .feature .feature-item i {
   position: relative;
   display: block;
-  color: var(--scancolor);
+  color: var(--scandcolor);
   font-size: 60px;
   line-height: 60px;
   margin-bottom: 15px;
-  background-image: linear-gradient(var(--scancolor), var(--firstColor));
+  background-image: linear-gradient(var(--scandcolor), var(--firstColor));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1285,7 +1285,7 @@ a:focus {
 .menu .menu-tab .nav.nav-pills .nav-link:hover,
 .menu .menu-tab .nav.nav-pills .nav-link.active {
   color: #ffffff;
-  background: var(--scancolor);
+  background: var(--scandcolor);
 }
 
 .menu .menu-tab .tab-content {
@@ -1447,7 +1447,7 @@ a:focus {
 
 .team .team-social a:hover {
   color: #ffffff;
-  background: var(--scancolor);
+  background: var(--scandcolor);
 }
 
 .team .team-item:hover .team-social {
@@ -1581,7 +1581,7 @@ a:focus {
 }
 
 .testimonial .owl-dot.active {
-  background: var(--scancolor);
+  background: var(--scandcolor);
 }
 
 /*******************************/
@@ -1853,7 +1853,7 @@ a:focus {
 .single .related-slider .owl-nav .owl-prev:hover,
 .single .related-slider .owl-nav .owl-next:hover {
   color: #ffffff;
-  background: var(--scancolor);
+  background: var(--scandcolor);
 }
 
 .single .single-comment {
@@ -2010,7 +2010,7 @@ a:focus {
 }
 
 .sidebar .search-widget .btn:hover {
-  color: var(--scancolor);
+  color: var(--scandcolor);
 }
 
 .sidebar .sidebar-widget .recent-post {
@@ -2030,7 +2030,7 @@ a:focus {
 .sidebar .tab-post .nav.nav-pills .nav-link:hover,
 .sidebar .tab-post .nav.nav-pills .nav-link.active {
   color: #ffffff;
-  background: var(--scancolor);
+  background: var(--scandcolor);
 }
 
 .sidebar .tab-post .tab-content {
@@ -2166,7 +2166,7 @@ a:focus {
 .contact .contact-text h3 {
   font-size: 18px;
   font-weight: 700;
-  color: var(--scancolor);
+  color: var(--scandcolor);
 }
 
 .contact .contact-text p {
@@ -2182,7 +2182,7 @@ a:focus {
 }
 
 .contact .contact-social a:hover {
-  color: var(--scancolor);
+  color: var(--scandcolor);
 }
 
 .contact .contact-form iframe {
@@ -2251,7 +2251,7 @@ a:focus {
   height: 2px;
   bottom: 0;
   left: 0;
-  background: var(--scancolor);
+  background: var(--scandcolor);
 }
 
 .footer .footer-link a {
@@ -2301,7 +2301,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover {
-  background: var(--scancolor);
+  background: var(--scandcolor);
 }
 
 .footer .footer-social a:last-child {
@@ -2349,5 +2349,5 @@ a:focus {
 }
 
 .footer .copyright p a:hover {
-  color: var(--scancolor);
+  color: var(--scandcolor);
 }
