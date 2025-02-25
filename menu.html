@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Burger King - Food Website Template</title>
+        <title>AK - Lounge</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -19,6 +19,9 @@
         <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet">
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <style>
+            
+        </style>
     </head>
     <body>
         <!-- Nav Bar Start -->
@@ -58,6 +61,24 @@
             </div>
         </div>
         <!-- Nav Bar End -->
+        <!--start  splash screen  -->
+        <div class="splash">
+            <div class="splash_logo">
+              <img src="img/Lounge-removebg-preview.png" style="width: 100%;" alt="">
+            </div>
+            <div class="splash_svg">
+              <svg width="100%" height="100%">
+                <rect width="100%" height="100%" >
+              </svg>
+            </div>
+            <div class="splash_minimize">
+              <svg width="100%" height="100%">
+                <rect width="100%" height="100%" >
+              </svg>
+            </div>
+          </div>
+        <!--end  splash screen  -->
+
         <!-- Page Header Start -->
         <div class="page-header mb-0">
             <div class="container">
@@ -1999,6 +2020,15 @@
         <script src="mail/contact.js"></script>
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
-        <script></script>
+        <script>
+            
+            const splash = document.querySelector('.splash');
+            
+            document.addEventListener('DOMContentLoaded',(e)=>{
+                setTimeout(()=>{
+                    splash.classList.add('display-none');
+                },4000);
+            })
+        </script>
     </body>
 </html>
