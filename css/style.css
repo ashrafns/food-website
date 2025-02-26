@@ -4,6 +4,9 @@
   --firstColor: #fbaf32;
   --scandcolor:#719a0a;
   --thiredColor:#bf2a2e;
+  --backgroundColor:#f0e3bb;
+  --hColor:   #454545;
+  --pColor:#757575;
 }
 body {
   background-color: #191919;
@@ -396,8 +399,8 @@ body {
 /********* General CSS *********/
 /*******************************/
 body {
-  color: #757575;
-  background: #ffffff;
+  color: var(--thiredColor);
+  background: #f0e3bb;
   font-family: "open sans", sans-serif;
 }
 
@@ -407,7 +410,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #454545;
+  color: var(--thiredColor);
   font-family: "Nunito", sans-serif;
 }
 
@@ -547,7 +550,7 @@ a:focus {
 
   .navbar.nav-sticky {
     padding: 10px 60px;
-    background: #ffffff !important;
+    background: var(--backgroundColor) !important;
   }
 
   .navbar .navbar-brand {
@@ -588,8 +591,8 @@ a:focus {
 
 @media (max-width: 991.98px) {
   .navbar {
-    padding: 15px;
-    background: #ffffff !important;
+    padding:0px 15px;
+    background: var(--backgroundColor) !important;
   }
 
   .navbar .navbar-brand {
@@ -623,7 +626,7 @@ a:focus {
   width: 100%;
   height: 100vh;
   min-height: 400px;
-  background: #ffffff;
+  background: var(--backgroundColor);
 }
 
 .carousel .container-fluid {
@@ -768,8 +771,8 @@ a:focus {
 /*******************************/
 .page-header {
   position: relative;
-  margin-bottom: 45px;
-  padding: 150px 0 90px 0;
+  margin-bottom: 30px;
+  /* padding: 150px 0 90px 0; */
   text-align: center;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/page-header.jpg);
@@ -960,7 +963,7 @@ a:focus {
   margin-bottom: 30px;
   padding: 50px 30px 30px;
   text-align: center;
-  background: #ffffff;
+  background: var(--backgroundColor);
   border-radius: 15px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
@@ -1340,7 +1343,7 @@ a:focus {
   display: inline-block;
   float: left;
   padding-right: 5px;
-  background: #ffffff;
+  background: var(--backgroundColor);
 }
 
 .menu .menu-text h3 strong {
@@ -1348,7 +1351,7 @@ a:focus {
   float: right;
   padding-left: 5px;
   color: var(--firstColor);
-  background: #ffffff;
+  background: var(--backgroundColor);
 }
 
 .menu .menu-text p {
@@ -1395,7 +1398,7 @@ a:focus {
 .team .team-item {
   position: relative;
   margin-bottom: 30px;
-  background: #ffffff;
+  background: var(--backgroundColor);
 }
 
 .team .team-img {
@@ -1482,7 +1485,7 @@ a:focus {
   position: relative;
   padding: 25px 15px;
   text-align: center;
-  background: #ffffff;
+  background: var(--backgroundColor);
   border: 1px solid rgba(0, 0, 0, 0.07);
   border-top: none;
   border-radius: 0 0 15px 15px;
@@ -1523,7 +1526,7 @@ a:focus {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: #ffffff;
+  background: var(--backgroundColor);
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
@@ -1615,7 +1618,7 @@ a:focus {
   top: -60px;
   left: 30px;
   padding: 25px 30px 30px 30px;
-  background: #ffffff;
+  background: var(--backgroundColor);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
   border-radius: 15px;
   z-index: 2;
@@ -1911,7 +1914,7 @@ a:focus {
 .single .comment-text .btn {
   padding: 3px 10px;
   font-size: 14px;
-  color: #454545;
+  /* color: #454545; */
   background: #dddddd;
   border-radius: 5px;
 }
@@ -2228,7 +2231,7 @@ a:focus {
 .footer .footer-newsletter {
   position: relative;
   margin-bottom: 45px;
-  color: #454545;
+  color: var(--thiredColor);
 }
 
 .footer .footer-contact h2,
@@ -2257,7 +2260,7 @@ a:focus {
 .footer .footer-link a {
   display: block;
   margin-bottom: 10px;
-  color: #454545;
+  color: var(--thiredColor);
   transition: 0.3s;
 }
 
@@ -2341,7 +2344,7 @@ a:focus {
 .footer .copyright p {
   margin: 0;
   display: inline-block;
-  color: #454545;
+  color: var(--thiredColor);
 }
 
 .footer .copyright p a {
