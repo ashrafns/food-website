@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قائمة الطعام</title>
+    <style>
+        .menu-item {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+        }
+        .menu-img img {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="menu"></div>
+
+<script>
+    function item(imgSrc, itemTitle, itemPrice, itemDesc) {
+        const menuItem = document.createElement('div');
+        menuItem.className = 'menu-item';
+
+        menuItem.innerHTML = `
+            <div class="menu-img">
+                <img src="${imgSrc}" alt="Image" style="width: 100px; height: auto;">
+            </div>
+            <div class="menu-text">
+                <h3>
+                    <span>${itemTitle}</span>
+                    <strong>SR ${itemPrice}</strong>
+                </h3>
+                <p>${itemDesc}</p>
+            </div>
+        `;
+
+        return menuItem;
+    }
+
+    function addMenuItems(items) {
+        const menu = document.getElementById('menu');
+        items.forEach(itemDetails => {
+            const menuItem = item(itemDetails.imgSrc, itemDetails.itemTitle, itemDetails.itemPrice, itemDetails.itemDesc);
+            menu.appendChild(menuItem);
+        });
+    }
+
+    // Array of menu items
+    const menuItems = [
+        { imgSrc: "img/menu-burger.jpg", itemTitle: "Cheese Cake Strawberry", itemPrice: "28.00", itemDesc: "مولتن" },
+        { imgSrc: "img/menu-burger.jpg", itemTitle: "Spaghetti Carbonara", itemPrice: "45.00", itemDesc: "لذيذ" },
+        { imgSrc: "img/menu-burger.jpg", itemTitle: "Margherita Pizza", itemPrice: "35.00", itemDesc: "بيتزا طازجة" }
+    ];
+
+    // Add menu items dynamically
+    addMenuItems(menuItems);
+</script>
+
+</body>
+</html>
