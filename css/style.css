@@ -2,17 +2,14 @@
 
 :root {
   --firstColor: #fbaf32;
-  --scandcolor:#719a0a;
-  --thiredColor:#bf2a2e;
-  --backgroundColor:#f0e3bb;
-<<<<<<< HEAD
-  --hColor:   #454545;
-  --pColor:#757575;
-=======
->>>>>>> 5a28ac51be9d08928bf983426acaa48e8ed8c558
+  --scandcolor: #719a0a;
+  --thiredColor: #bf2a2e;
+  --backgroundColor: #f0e3bb;
+  --hColor: #454545;
+  --pColor: #757575;
 }
 body {
-  background-color: #191919;
+  /* background-color: #191919; */
   font-family: "Open Sans", sans-serif;
 }
 
@@ -402,12 +399,10 @@ body {
 /********* General CSS *********/
 /*******************************/
 body {
-<<<<<<< HEAD
   color: var(--thiredColor);
-=======
   color: #757575;
->>>>>>> 5a28ac51be9d08928bf983426acaa48e8ed8c558
   background: #f0e3bb;
+  background: #ffffff;
   font-family: "open sans", sans-serif;
 }
 
@@ -557,7 +552,7 @@ a:focus {
 
   .navbar.nav-sticky {
     padding: 10px 60px;
-    background: var(--backgroundColor) !important;
+    background: #ffffff !important;
   }
 
   .navbar .navbar-brand {
@@ -598,12 +593,10 @@ a:focus {
 
 @media (max-width: 991.98px) {
   .navbar {
-<<<<<<< HEAD
-    padding:0px 15px;
-=======
+    padding: 0px 15px;
     padding: 15px;
->>>>>>> 5a28ac51be9d08928bf983426acaa48e8ed8c558
     background: var(--backgroundColor) !important;
+    background: #ffffff !important;
   }
 
   .navbar .navbar-brand {
@@ -637,7 +630,7 @@ a:focus {
   width: 100%;
   height: 100vh;
   min-height: 400px;
-  background: var(--backgroundColor);
+  background: #ffffff;
 }
 
 .carousel .container-fluid {
@@ -974,7 +967,7 @@ a:focus {
   margin-bottom: 30px;
   padding: 50px 30px 30px;
   text-align: center;
-  background: var(--backgroundColor);
+  background: #ffffff;
   border-radius: 15px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
@@ -1354,7 +1347,7 @@ a:focus {
   display: inline-block;
   float: left;
   padding-right: 5px;
-  background: var(--backgroundColor);
+  background: #ffffff;
 }
 
 .menu .menu-text h3 strong {
@@ -1362,7 +1355,7 @@ a:focus {
   float: right;
   padding-left: 5px;
   color: var(--firstColor);
-  background: var(--backgroundColor);
+  background: #ffffff;
 }
 
 .menu .menu-text p {
@@ -1409,7 +1402,7 @@ a:focus {
 .team .team-item {
   position: relative;
   margin-bottom: 30px;
-  background: var(--backgroundColor);
+  background: #ffffff;
 }
 
 .team .team-img {
@@ -1496,7 +1489,7 @@ a:focus {
   position: relative;
   padding: 25px 15px;
   text-align: center;
-  background: var(--backgroundColor);
+  background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.07);
   border-top: none;
   border-radius: 0 0 15px 15px;
@@ -1537,7 +1530,7 @@ a:focus {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: var(--backgroundColor);
+  background: #ffffff;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
@@ -1629,7 +1622,7 @@ a:focus {
   top: -60px;
   left: 30px;
   padding: 25px 30px 30px 30px;
-  background: var(--backgroundColor);
+  background: #ffffff;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
   border-radius: 15px;
   z-index: 2;
