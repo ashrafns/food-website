@@ -401,9 +401,9 @@ body {
 /*******************************/
 body {
   color: var(--thiredColor);
-  color: #757575;
+  /* color: #757575; */
   background: #f0e3bb;
-  background: #ffffff;
+  /* background: #ffffff; */
   font-family: "open sans", sans-serif;
 }
 
@@ -597,7 +597,7 @@ a:focus {
     padding: 0px 15px;
     padding: 15px;
     background: var(--backgroundColor) !important;
-    background: #ffffff !important;
+    /* background: #ffffff !important; */
   }
 
   .navbar .navbar-brand {
@@ -780,7 +780,7 @@ a:focus {
   /* padding: 150px 0 90px 0; */
   text-align: center;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/page-header.jpg);
+    url(../img/header.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1348,7 +1348,7 @@ a:focus {
   display: inline-block;
   float: left;
   padding-right: 5px;
-  background: #ffffff;
+  /* background: #ffffff; */
 }
 
 .menu .menu-text h3 strong {
@@ -1356,7 +1356,7 @@ a:focus {
   float: right;
   padding-left: 5px;
   color: var(--firstColor);
-  background: #ffffff;
+  /* background: #ffffff; */
 }
 
 .menu .menu-text p {
@@ -2343,7 +2343,7 @@ a:focus {
   width: 100%;
   padding: 30px 0;
   text-align: center;
-  background: #ffffff;
+  /* background: #ffffff; */
 }
 
 .footer .copyright p {
