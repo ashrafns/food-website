@@ -402,7 +402,7 @@ body {
 body {
   color: var(--thiredColor);
   /* color: #757575; */
-  background: #f0e3bb;
+  background: var(--backgroundColor);
   /* background: #ffffff; */
   font-family: "open sans", sans-serif;
 }
